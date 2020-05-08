@@ -1,0 +1,53 @@
+[
+  {
+    "letter": "a",
+    "terms": [
+      {
+        "title": "Aislamiento",
+        "desciption": "Separación de una persona o grupo de personas que se sabe o se cree que están infectadas con una enfermedad transmisible y potencialmente infecciosa de aquellos que no están infectados, para prevenir la propagación de COVID-19. El aislamiento para fines de salud pública puede ser voluntario u obligado por orden de la autoridad sanitaria."
+      },
+      {
+        "title": "Aislamiento en cohorte",
+        "desciption": " Indica la presencia de múltiples pacientes portando el mismo tipo de infección y un mismo agente; conduce a la generación de este tipo de aislamiento para optimizar recursos y concentrar esfuerzos de trabajo en un área específica con mayor costo-efectividad de las intervenciones."
+      },
+      {
+        "title": "Aislamiento por contacto",
+        "desciption": "Medidas para controlar el contacto directo, cuando se produce el traspaso de sangre o fluidos corporales desde un paciente hacia otro individuo susceptible, el contacto puede hacerse en piel, mucosas o lesiones, así mismo por inóculos directos a torrente sanguíneo y el indirecto: se produce cuando el huésped susceptible entra en contacto con el microorganismo infectante a través de un intermediario inanimado (ropas, fómites, superficies de la habitación) o animado (personal de salud, otro paciente) que estuvo inicialmente en contacto con ese microorganismo, en este caso se utiliza bata desechable anti fluidos o traje de polietileno, este último para alto riesgo biológico."
+      },
+      {
+        "title": "Aislamiento respiratorio",
+        "desciption": "Se aplica cuando se prevé la presencia de gotas de origen respiratorio con bajo rango de difusión (hasta 1 metro)."
+      },
+      {
+        "title": "Atención Domiciliaria",
+        "desciption": "Modalidad de prestación de servicios de salud extra mural que prestan los servicios de salud en el domicilio o residencia de la persona."
+      },
+      {
+        "title": "Autocontrol",
+        "desciption": "Control que realiza la persona a sí misma para detectar fiebre con la toma la temperatura dos veces al día permaneciendo alerta ante la tos o la dificultad para respirar o el dolor de garganta o la fatiga."
+      },
+      {
+        "title": "Auto observación",
+        "desciption": "Seguimiento que hace la persona respecto de signos y síntomas que pueda presentar."
+      }
+    ]
+  },
+  {
+    "letter": "c",
+    "terms": [
+      {
+        "title": "Contacto estrecho",
+        "desciption": "Contacto entre personas en un espacio de 2 metros o menos de distancia, en una habitación o en el área de atención de un caso de COVID-19 confirmado o probable, durante un tiempo mayor a 15 minutos, o contacto directo con secreciones de un caso probable o confirmado mientras el paciente es considerado infeccioso."
+      }
+    ]
+  },
+  {
+    "letter": "S",
+    "terms": [
+      {
+        "title": "SARS-CoV-2",
+        "desciption": "Versión acortada del nombre del nuevo coronavirus “Coronavirus 2 del Síndrome Respiratorio Agudo Grave” (identificado por primera vez en Wuhan, China) asignado por El Comité Internacional de Taxonomía de Virus, encargado de asignar nombres a los nuevos virus."
+      }
+    ]
+  }
+]
