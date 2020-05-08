@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@import "../../../node_modules/bootstrap/scss/functions";
+@import 'ecored/variables';
+@import 'vendor/dashkit/variables';
+@import './vendor/bootstrap';
+@import './vendor/dashkit/dashkit';
+
+@import 'ecored/content';
+@import 'ecored/custom';
+@import 'ecored/home';
+@import 'pages/modulosPages';

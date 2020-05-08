@@ -1,0 +1,100 @@
+[
+  {
+    "icon": "fa fa-1x fa-home",
+    "slug": "external",
+    "title": "Volver al Inicio",
+    "path": "../"
+  },
+  {
+    "icon": "video",
+    "slug": "introduccion",
+    "title": "1. Introducción",
+    "breadcrumb": [
+      "Inicio",
+      "Introducción"
+    ],
+    "path": "pages/introduccion.html"
+  },
+  {
+    "icon": "video",
+    "slug": "aislamiento-preventivo",
+    "title": "2. ¿Qué es el aislamiento preventivo?",
+    "breadcrumb": [
+      "Inicio",
+      "¿Qué es el aislamiento preventivo?"
+    ],
+    "path": "pages/aislamiento-preventivo.html",
+    "submenu": []
+  },
+  {
+    "icon": "document",
+    "slug": "casos-posibles",
+    "title": "3. Aislamiento domiciliario en casos posibles, probables o confirmados",
+    "breadcrumb": [
+      "Inicio",
+      "Casos posibles, probables o confirmados"
+    ],
+    "path": "pages/casos-posibles.html"
+  },
+  {
+    "icon": "video",
+    "slug": "medidas-aislamiento-seguro",
+    "title": "4. Medidas generales para cumplir con el aislamiento en forma segura",
+    "breadcrumb": [
+      "Inicio",
+      "Medidas para cumplir con el aislamiento en forma segura"
+    ],
+    "path": "pages/medidas-generales.html"
+  },
+  {
+    "icon": "video",
+    "slug": "manejo-elementos-proteccion",
+    "title": "5. Manejo de elementos de protección personal",
+    "breadcrumb": [
+      "Inicio",
+      "Manejo de elementos de protección personal"
+    ],
+    "path": "pages/manejo-elementos-proteccion.html"
+  },
+  {
+    "icon": "video",
+    "slug": "manejo-limpieza-desinfeccion",
+    "title": "6. Recomendaciones para la limpieza y desinfección en el hogar",
+    "breadcrumb": [
+      "Inicio",
+      "Manejo de limpieza y desinfección"
+    ],
+    "path": "pages/manejo-limpieza-desinfeccion.html"
+  },
+  {
+    "icon": "document",
+    "slug": "manejo-residuos",
+    "title": "7. Manejo de residuos",
+    "breadcrumb": [
+      "Inicio",
+      "Manejo de residuos"
+    ],
+    "path": "pages/manejo-residuos.html"
+  },
+  {
+    "icon": "video",
+    "slug": "mitos-covid",
+    "title": "8. Mitos y realidades sobre el COVID-19",
+    "breadcrumb": [
+      "Inicio",
+      "Mitos y realidades sobre el COVID-19"
+    ],
+    "path": "pages/mitos-covid.html"
+  },
+  {
+    "icon": "document",
+    "slug": "lineas-atencion-eps",
+    "title": "9. Líneas de atención EPS",
+    "breadcrumb": [
+      "Inicio",
+      "Líneas de atención EPS"
+    ],
+    "path": "pages/lineas-atencion-eps.html"
+  }
+    
+]

@@ -1,0 +1,305 @@
+doctype
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+    title EDT-AISLAMIENTO DOMICILIARIO PREVENCIÓN DEL COVID-19
+    meta(meta name="description" content="En este evento de divulgación tecnológica (EDT), se abordan los lineamientos nacionales para que el personal de salud y la comunidad garanticen el correcto aislamiento domiciliario para personas afectadas por el COVID -19.  En él encontrará paso a paso cómo afrontar dicho aislamiento y la importancia de cumplirlo para frenar la curva de contagios.")    
+    link(rel="icon",type="image/svg+xml",href="assets/images/logos/senaLogo.svg")
+    link(rel="stylesheet", href="assets/fonts/feather/feather.css")
+    link(rel="stylesheet", href="assets/fonts/fontawesome/css/font-awesome.css")
+    link(href='assets/css/animate.css', rel='stylesheet')
+    link(rel="stylesheet", href="assets/css/main.css?v=2")
+
+  body
+    header.header__programa
+      .container 
+        .header__nav.row.align-items-center         
+          .header__nav__logo.col-1
+            include ../assets/images/logos/senaLogo.svg
+
+          .header__nav__items.col-11
+            .row.justify-content-end              
+              a(href="#resultados") objetivos
+              a(href="#temas") desarrollo de contenidos
+              a(href="#creditos") créditos
+        .header__info.row.align-items-center
+          .header__info__abstract.col-12.col-lg-6
+            h3.wow.bounceIn Evento de divulgación tecnológica para la mitigación de la pandemia COVID-19            
+            h1.text-uppercase.wow.bounceIn(data-wow-delay=".3s") EDT-AISLAMIENTO DOMICILIARIO PREVENCIÓN DEL COVID-19
+            .horizontal-divider 
+            p.wow.fadeIn(data-wow-delay=".6s") En este evento de divulgación tecnológica (EDT), se abordan los lineamientos nacionales para que el personal de salud y la comunidad garanticen el correcto aislamiento domiciliario para personas afectadas por el COVID-19.  En él encontrará paso a paso cómo afrontar dicho aislamiento y la importancia de cumplirlo para frenar la curva de contagios.    
+            a.btn.btn-danger(href="content/index.html", data-wow-delay=".3s").wow.pulse Ver contenidos        
+          .header__info__imagen.col-md-6.d-none.d-lg-block.wow.bounceInRight(data-wow-delay=".8s")
+            img(src="content/images/header/header_media.svg", data-wow-delay="1.4s").wow.rubberBand
+ 
+    main
+      section#resultados.bgColor-LightBaseColor
+        .container
+          .row.justify-content-center.align-items-start
+            .section_divider.svg_color01
+              include ../assets/images/componente/sectionDivider.svg  
+        .container
+          .row
+            .section__subtitle
+              h2 Objetivos
+              .horizontal-divider
+
+          .row.justify-content-center             
+            .card__goal.col-10              
+              .card__goal__description
+                // span Cod  912948593
+                p Orientar a la población en general, frente a las acciones y los cuidados que se requiere implementar en el AISLAMIENTO DOMICILIARIO, en el marco de la alerta causada por el COVID19 para disminuir el riesgo de transmisión del virus de humano a humano.  
+      section#temas.bgColor-NeutralBaseColor
+        .container
+          .row.justify-content-center.align-items-start
+            .section_divider.svg_color02
+              include ../assets/images/componente/sectionDivider.svg 
+        .container
+          .row
+            .section__subtitle
+              h2 Desarrollo de
+                br
+                |contenidos
+              .horizontal-divider
+
+          .row.justify-content-center
+            .col-12.col-sm-10
+              .card
+                .card-body
+                  ul.list-group.list-group-flush.list.my-n3.nav-temas
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 1
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/introduccion//") Introducción
+                        .col-auto
+                          // Button
+                          a(href='content/#page/introduccion/').btn.btn-light.nav-tema-item__btn
+                            | Ver más
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 2
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/aislamiento-preventivo/") Qué es el Aislamiento Preventivo 
+                        .col-auto
+                          // Button
+                          a(href='content/#page/aislamiento-preventivo/').btn.btn-light.nav-tema-item__btn
+                            | Ver más
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 3
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/casos-posibles/") Aislamiento Domiciliario en Casos posibles, probables ó confirmados
+                        .col-auto
+                          // Button
+                          a(href='content/#page/casos-posibles/').btn.btn-light.nav-tema-item__btn
+                            | Ver más
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 4
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/medidas-aislamiento-seguro/") Medidas generales para cumplir con el aislamiento en forma segura
+                        .col-auto
+                          // Button
+                          a(href='content/#page/medidas-aislamiento-seguro/').btn.btn-light.nav-tema-item__btn
+                            | Ver más             
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 5
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/manejo-elementos-proteccion/") Manejo de elementos de protección personal
+                        .col-auto
+                          // Button
+                          a(href='content/#page/manejo-elementos-proteccion/').btn.btn-light.nav-tema-item__btn
+                            | Ver más 
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 6
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/manejo-limpieza-desinfeccion/") Manejo de limpieza y desinfección
+                        .col-auto
+                          // Button
+                          a(href='content/#page/manejo-limpieza-desinfeccion/').btn.btn-light.nav-tema-item__btn
+                            | Ver más 
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 7
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/manejo-residuos/") Manejo de residuos
+                        .col-auto
+                          // Button
+                          a(href='content/#page/manejo-residuos/').btn.btn-light.nav-tema-item__btn
+                            | Ver más 
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 8
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/mitos-covid/") Mitos y realidades sobre el COVID-19
+                        .col-auto
+                          // Button
+                          a(href='content/#page/mitos-covid/').btn.btn-light.nav-tema-item__btn
+                            | Ver más
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 9
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/lineas-atencion-eps/") Líneas de atención EPS
+                        .col-auto
+                          // Button
+                          a(href='content/#page/lineas-atencion-eps/').btn.btn-light.nav-tema-item__btn
+                            | Ver más 
+
+    footer#creditos
+      .container.footer__header
+        .row
+          .footer__info__title.col-2
+            h1 Créditos               
+            .horizontal-divider-footer
+
+      .container
+        .row.footer__info          
+          .footer__info__column.col-md-5        
+            .footer__info__column__profile
+              h3.mb-1.text-uppercase Diseño y Desarrollo Recursos Educativos Digitales</u>
+
+              
+              p.mt-4.mb-3
+                | #[strong Francisco José Lizcano Reyes]<br/>
+                span.text-small Responsable del Equipo <br/>
+                span.text-small.text-uppercase CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA   
+                br
+                span.text-small Floridablanca, Santander
+
+            .footer__info__column__profile             
+              p.mb-3
+                | #[strong Lady Adriana Ariza Luque ]<br/>   
+                | #[strong Daniel Ricardo Mutis Gomez ]<br/>                  
+                | #[strong Eulises Orduz Amezquita ]<br/>                       
+                | #[strong Nelson Iván Vera Briceño]<br/>
+                | #[strong José Jaime Luis Tang Pinzón]<br/>
+                | #[strong Carlos Julian Ramirez Benitez]<br/>
+                | #[strong Leyson Fabian Castaño Perez]<br/>
+                | #[strong Luis Gabriel Urueta Alvarez]<br/> 
+                | #[strong Camilo Andrés Villamizar Lizcano]<br/>                                             
+                | #[strong Víctor Raúl Cárdenas Cáceres]<br/>        
+                | #[strong Oleg Litvin]<br/>
+                span.text-small Diseño Web & Producción Audiovisual<br/>
+                span.text-small.text-uppercase CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA   
+                br
+                span.text-small Floridablanca, Santander
+
+            .footer__info__column__profile
+              h3.mb-1 AUTORES
+
+              p.mb-3.mt-4
+                | #[strong José Daniel Rivera Pérez]<br/>
+                span.text-small Instructor
+                br
+                span.text-small.text-uppercase Centro De Formación De Talento Humano
+                br
+                span.text-small Regional Distrito Capital
+
+              p.mt-4.mb-3
+                | #[strong Emilia Sarmiento]
+                br
+                span.text-small Dinamizadora Virtual
+                br
+                span.text-small.text-uppercase Dirección de Formación Profesional
+                br
+                span.text-small Dirección General
+
+
+          .footer__info__column.col-md-5  
+            .footer__info__column__profile
+              h3 REVISIÓN
+
+              p.mb-3 
+                strong Francisco Ariza Montoya.
+                br
+                span.text-small Coordinador Grupo de Formación Talento Humano Salud
+                br
+                span.text-small  Dirección de Desarrollo del Talento Humano Salud
+                br
+                span.text-small.text-uppercase MINISTERIO DE SALUD Y PROTECCIÓN SOCIAL
+
+              p.mb-3 
+                strong Silvia Mora
+                br
+                span.text-small Coordinador Grupo de Formación Talento Humano Salud
+                br
+                span.text-small  Dirección de Desarrollo del Talento Humano Salud
+                br
+                span.text-small.text-uppercase MINISTERIO DE SALUD Y PROTECCIÓN SOCIAL
+
+              p.mb-3 
+                strong Janeth Ramirez
+                br
+                span.text-small.text-uppercase Secretaría Departamental de Salud del Valle
+
+              p.mb-3
+                | #[strong Ruth Mireya Suárez]<br/>   
+                | #[strong Emilia Sarmiento]<br/>                
+                span.text-small.text-uppercase SENA - RED SALUD
+
+              p.mb-3
+                | #[strong Rafael Neftali Lizcano]<br/>   
+                span.text-small Asesor Pedagógico
+                br
+                span.text-small.text-uppercase Centro Industrial del Diseño y la Manufactura
+                br
+                span.text-small Floridablanca, Santander
+
+              p.mb-3
+                | #[strong Ingry Dayanna Bonilla]<br/>   
+                span.text-small Dinamizadora Virtual
+                br
+                span.text-small.text-uppercase Dirección de Formación Profesional
+                br
+                span.text-small Dirección General
+
+
+          .footer__info__column.col-md-2  
+            .d-flex.flex-column
+              img(src="assets/images/logos/senaLogo.svg", alt="Logo SENA")
+
+
+section#cc
+  .container
+    .d-flex.flex-column.flex-sm-row
+      span.pr-3
+        i.icon.cc
+      
+      p
+        | Este material puede ser distribuido, copiado y exhibido por terceros si se muestra en los créditos. No se puede obtener ningún beneficio comercial y las obras derivadas tienen que estar bajo los mismos términos de la licencia que
+        | el trabajo original.
+                
+    script(src="assets/js/plugins.js")
+    script(src="content/js/pages.js")
