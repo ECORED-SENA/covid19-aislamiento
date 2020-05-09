@@ -1,4 +1,5 @@
-#cont.container-fluid    
+include ../../mixins/creditosFooter
+#cont.container-fluid
     .row
         #verticalNavbar.col-md-4.col-lg-3.collapse.width.show
             .sidebar-sticky.pt-0
@@ -39,5 +40,4 @@
                         #header__breadcrumb__content
             
             section#mainContent
-
-            include creditos.pug
+            +creditosFooter("../assets/images/logos/senaLogo.svg") 

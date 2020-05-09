@@ -1,4 +1,5 @@
 doctype
+include mixins/creditosFooter
 html(lang="es")
   head
     meta(charset="UTF-8")
@@ -178,7 +179,7 @@ html(lang="es")
                             | Ver más 
 
 
-    include content/includes/unidadt/creditos.pug   
+    +creditosFooter("assets/images/logos/senaLogo.svg") 
                 
     script(src="assets/js/plugins.js")
     script(src="content/js/pages.js")
